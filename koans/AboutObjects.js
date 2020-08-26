@@ -81,7 +81,7 @@ describe('About Objects', function() {
 
     delete meglomaniac.henchman;
     expect('henchman' in meglomaniac).toBe(false);
-  });
+  });  
 
 
   it('should use prototype to add to all objects', function() {
